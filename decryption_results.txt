@@ -1,0 +1,156 @@
+=== TESTING cleaned_blob.b64 ===
+
+=== TESTING cleaned_cosmic.b64 ===
+
+=== TESTING cosmic_duality_blob.b64 ===
+
+=== TESTING final_phase_blob.b64 ===
+POSSIBLE HIT pw=averyspecialdessert mode=md5 iter=0 salt=nosalt out=artifacts/out_1_md5_0_nosalt.bin printable=0.8210526315789474
+POSSIBLE HIT (derived) pw=theflowerblossomsthroughwhatseemstobeaconcretesurface mode=sha256 iter=0 out=artifacts/out_9_sha256_0_derived.bin printable=0.7684210526315789
+
+=== TESTING phase2_blob.b64 ===
+POSSIBLE HIT (derived) pw=averyspecialdessert mode=pbkdf2 iter=10000 out=artifacts/out_1_pbkdf2_10000_derived.bin printable=0.7600596125186289
+POSSIBLE HIT pw=thispassword mode=pbkdf2 iter=1000 salt=nosalt out=artifacts/out_3_pbkdf2_1000_nosalt.bin printable=0.7257824143070045
+POSSIBLE HIT pw=eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf mode=sha256 iter=0 salt=embedded out=artifacts/out_14_sha256_0_embedded.bin printable=0.9814814814814815
+POSSIBLE HIT pw=eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf mode=sha256 iter=0 salt=embedded out=artifacts/out_14_sha256_0_embedded.bin printable=0.9814814814814815
+POSSIBLE HIT pw=causalitySafenetLunaHSM11110 mode=md5 iter=0 salt=nosalt out=artifacts/out_16_md5_0_nosalt.bin printable=0.7526080476900149
+POSSIBLE HIT pw=causalitySafenetLunaHSM11110 mode=md5 iter=0 salt=nosalt out=artifacts/out_16_md5_0_nosalt.bin printable=0.7526080476900149
+
+=== TESTING salphase_verification.b64 ===
+
+=== TESTING small_blob.b64 ===
+POSSIBLE HIT (derived) pw=lastwordsbeforearchichoice mode=sha256 iter=0 out=artifacts/out_2_sha256_0_derived.bin printable=0.7021276595744681
+POSSIBLE HIT (derived) pw=lastwordsbeforearchichoice mode=sha256 iter=0 out=artifacts/out_2_sha256_0_derived.bin printable=0.7021276595744681
+POSSIBLE HIT pw=THEMATRIXHASYOU mode=pbkdf2 iter=1000 salt=embedded out=artifacts/out_10_pbkdf2_1000_embedded.bin printable=0.7741935483870968
+POSSIBLE HIT pw=THEMATRIXHASYOU mode=pbkdf2 iter=1000 salt=embedded out=artifacts/out_10_pbkdf2_1000_embedded.bin printable=0.7741935483870968
+POSSIBLE HIT pw=THEMATRIXHASYOU mode=pbkdf2 iter=1000 salt=embedded out=artifacts/out_10_pbkdf2_1000_embedded.bin printable=0.7741935483870968
+
+=== TESTING temp_blob.b64 ===
+
+=== TESTING artifacts/blob_92f9dddfdf5cb8722727c95e0120782af3c4fb4c3c78490923e83758760604c5.b64 ===
+
+=== TESTING artifacts/blob_8529f6b1df5dd9850e5f3914119059b3855a07963a51eb6efb3346a728a06728.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_5_pass_phase3_2.preview_pos0_key552238054073037d_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_page3choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html_0_pass_0f48184b3a40.preview_pos0_key2d0d0e045c1b3072_raw2b64.txt_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_0_pass_d37d1293c652_pos0_key56b3f3bd1f756794_raw2b64.txt_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_0fc2b84b75ac_pos0_keydcf813fb82d70ffc_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_00e5be36cc35.preview_pos0_key96dd4c0d1ba1c81f_raw2b64.txt_0_pass_679039e2ef91_pos0_keyc73c9f9c10ef224c_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_211c5c93fc7e2658_p0_k4e2c2c2568a2f01f_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_761356849e7d.preview_pos0_key2223562a0161712b_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_page3choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html_0_pass_0f48184b3a40.preview_pos0_key2d0d0e045c1b3072_raw2b64.txt_0.b64_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_98edd9bd8b63.preview_pos0_key09125b116d057726_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_00e5be36cc35.preview_pos0_key96dd4c0d1ba1c81f_raw2b64.txt_0_pass_71d01f9e1980.preview_pos0_key49004a5a700f5b57_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_3ce8be88874e_pos0_keyf99e7028eab05921_raw2b64.txt_0.b64_0.b64_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_77f6ff4314fda4e0_p0_k2e645b172d320735_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_f71db0c19f332789_p0_k445fd323b77f041f_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_98edd9bd8b63.preview_pos0_key09125b116d057726_raw2b64.txt_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_51e716587fb8720e_p0_k8c5700b8f50d6737_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_0_pass_45ecf732d860_pos0_keybb0a7f39e615932c_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_980b1ff72106_pos0_key06d987932d466e5b_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_ba65d93177eb_pos0_key3a85ee8796540de6_raw2b64.txt_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_00e5be36cc35.preview_pos0_key96dd4c0d1ba1c81f_raw2b64.txt_0_pass_a6ba4c890b8c_pos0_key1d49f7bd265e9b0a_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_2ded3da32de8d422_p0_k09931f8fe0b38f68_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_0a6c1362ed98_pos0_key8863db6999423b71_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_15f775b95827930c_p0_k536164590c7f195a_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_674e43b1bd8cb3e7_p0_k9dd0f374cd53c7a4_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_49784456a17e_pos0_key2cba013e7770d28f_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_0_pass_99e05d534d66_pos0_key9218fa96384e7fd3_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_page3choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html_0_pass_231ae02ce969_pos0_keydd7c934ce9a68bc6_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_231ae02ce969.preview_pos0_key322c5d4d241c3a3b_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_6be101117ba1.preview_pos0_key1a6c667e671a4709_raw2b64.txt_0_pass_3202aa43a819_pos0_key445fd323b77f041f_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_e203f1d313b6b7f5_p0_k9dfd06d66078d25f_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_page3choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html_0_pass_0f48184b3a40_pos0_key2daf921807146620_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_page3choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html_0_pass_9bf828fb2f2a_pos0_key050001dcff25759b_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_051ffc83ee45b4fc_p0_k2e085911bed8714f_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_4ff17bc8ee5f_pos0_key96ade439868b676e_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_5e8b2cab1ec4cb5f_p0_k2daf921807146620_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_91f08e0d299db72f_p0_k86e6440129574d1f_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_d95182b7dbad_pos0_keyd10ea35a4845dd35_raw2b64.txt_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_2a1d2cba5c5b10dc_p0_k21b74f5c38d554ad_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_00e5be36cc35.preview_pos0_key96dd4c0d1ba1c81f_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_2_pass_4ff17bc8ee5f.preview_pos0_key2e085911bed8714f_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_3ce8be88874e.preview_pos0_key4f3d6a0a08343a22_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_4475a52295deacdd_p0_k54e95a1129da6b23_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_page3choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html_0_pass_229fdfe790b6_pos0_key307797db68d35d6e_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_c667e13b9b81_pos0_key18e8f3e12895a615_raw2b64.txt_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_c81b0f5089ec_pos0_key1ee2ce295395f8df_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_4ff17bc8ee5f.preview_pos0_key9fe9214c542a7665_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_2_pass_25f633b5d2ab_pos0_key8c5700b8f50d6737_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_57e42d6e72682458_p0_k050001dcff25759b_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_5_pass_03dfcdfa21f7.preview_pos0_key5f47667b49596519_raw2b64.txt_0.b64_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_5.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_51f679de07e4f791_p0_k250ce93d57c10461_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/page3choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself.html_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_00e5be36cc35.preview_pos0_key96dd4c0d1ba1c81f_raw2b64.txt_0_pass_715691a15fa0_pos0_keyc57a0d65eb79f0f2_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_2_pass_4ff17bc8ee5f_pos0_keyebfc11f9f2d43696_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_bf4afb94673a817b_p0_k30776176546c0d53_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_b2d4f6f3fa645bad_p0_k494136380808760d_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_bdbd9a55b525a704_p0_k11201f590c75436a_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_d95182b7dbad_pos0_keyd10ea35a4845dd35_raw2b64.txt_0.b64_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_4_pass_694b29d51e82_pos0_keyc28329d2d4ad1dba_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_1_pass_d95182b7dbad.preview_pos0_key3c4f41550f2b80ed_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_b30e00394220c886_p0_k96ade439868b676e_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/rec_384d5f99659bf2f8_p0_k315638003a3f2a2e_raw2b64.txt_0.b64 ===
+
+=== TESTING artifacts/phase_solver/blobs/recovered_hit_puzzlehunt_gsmgio-5btc-puzzle__GSMG.IO_5_BTC_puzzle_hints.html_0_pass_dc723957c2ac_pos0_key4e498c59f13b384e_raw2b64.txt_0.b64_0.b64_0.b64 ===

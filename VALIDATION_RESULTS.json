@@ -1,0 +1,548 @@
+{
+  "puzzle": "GSMG.IO 5 BTC Bitcoin Puzzle",
+  "validation_timestamp": 1755336841.6683183,
+  "keys_validated": 10,
+  "balances_found": 0,
+  "all_results": [
+    {
+      "private_key": "b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c",
+      "addresses": {
+        "compressed": "19cVaQzoUsvdYxEqDJVvACLWs68kmTAzKT",
+        "wif": "5KAA1u3FcSQuJ442xj8P1DeGY8Yd7x9mdtyT2XSatW7vL7wzsZT"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "19cVaQzoUsvdYxEqDJVvACLWs68kmTAzKT",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5KAA1u3FcSQuJ442xj8P1DeGY8Yd7x9mdtyT2XSatW7vL7wzsZT",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61daa7",
+      "addresses": {
+        "compressed": "1AqjdonDzGvgnFd35HcewffZgwCiP6AUmb",
+        "wif": "5K6nMy2q8gSBquBBeJbDm3m8zWPSJLqiGNNPBUTP1fY3vNXEfpN"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "1AqjdonDzGvgnFd35HcewffZgwCiP6AUmb",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5K6nMy2q8gSBquBBeJbDm3m8zWPSJLqiGNNPBUTP1fY3vNXEfpN",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "f7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61",
+      "addresses": {
+        "compressed": "152jnTndwWUQtVvnAvUzDhHYp6xbFvm18G",
+        "wif": "5KhPC1caxDGp7mxp6pxwDEQTQ3iWeWzf3fkPukETAm4U2cUYkom"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "152jnTndwWUQtVvnAvUzDhHYp6xbFvm18G",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5KhPC1caxDGp7mxp6pxwDEQTQ3iWeWzf3fkPukETAm4U2cUYkom",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61da",
+      "addresses": {
+        "compressed": "1GT2DnQMqD9DzPEiHH7Yc3WGfic4BNLvkC",
+        "wif": "5KDAwzWecGiHd8sB9CiUCtqW8hSYft9tbERgdePyY2Q7SRAvFCx"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "1GT2DnQMqD9DzPEiHH7Yc3WGfic4BNLvkC",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5KDAwzWecGiHd8sB9CiUCtqW8hSYft9tbERgdePyY2Q7SRAvFCx",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61daa7b9",
+      "addresses": {
+        "compressed": "1LNjRh5stZpYQLPWLwaoxEnjG1JxoF3gTU",
+        "wif": "5J7WegXjHLqr4xoGnMHT2vtffKHNKzQQ2Nns5h7Yvkfx9JZiUFM"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "1LNjRh5stZpYQLPWLwaoxEnjG1JxoF3gTU",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5J7WegXjHLqr4xoGnMHT2vtffKHNKzQQ2Nns5h7Yvkfx9JZiUFM",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc",
+      "addresses": {
+        "compressed": "1HxmWTreiXozB1qC5pb5KhmKSVbKz94vhr",
+        "wif": "5J1AGhzD5uffm4x3NcLTbEMzE828f5dNsbvm9nqGE5wiq6nYAQj"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "1HxmWTreiXozB1qC5pb5KhmKSVbKz94vhr",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5J1AGhzD5uffm4x3NcLTbEMzE828f5dNsbvm9nqGE5wiq6nYAQj",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "3ebada18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8",
+      "addresses": {
+        "compressed": "1F4X5WwLto7HHtMrgiZmWdwcBDn7vJA1gQ",
+        "wif": "5JHuw2jbyxKoW1h7UQjWm2BBNKeKCiRyEQwK5xMRQvjSs1vpibN"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "1F4X5WwLto7HHtMrgiZmWdwcBDn7vJA1gQ",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5JHuw2jbyxKoW1h7UQjWm2BBNKeKCiRyEQwK5xMRQvjSs1vpibN",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "bada18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d1",
+      "addresses": {
+        "compressed": "12Lm7eyaaWoCs4gaTv5ySEQKpvnTLBWnD2",
+        "wif": "5KEaTqX6x12TiW5L7VJPyFA1w6qt3dn9b6iJprR4xwgi8d7Azhi"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "12Lm7eyaaWoCs4gaTv5ySEQKpvnTLBWnD2",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5KEaTqX6x12TiW5L7VJPyFA1w6qt3dn9b6iJprR4xwgi8d7Azhi",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "da18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119",
+      "addresses": {
+        "compressed": "19obNpnk9GXbhXBKkUztNRBN6VpNh9dnon",
+        "wif": "5KULZagzfAd4845fMmUXemgM4TXoMnMHKQXov5Df1tn1NuZMJ6B"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "19obNpnk9GXbhXBKkUztNRBN6VpNh9dnon",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5KULZagzfAd4845fMmUXemgM4TXoMnMHKQXov5Df1tn1NuZMJ6B",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    },
+    {
+      "private_key": "cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c",
+      "addresses": {
+        "compressed": "1JPSLNA4yh57AMFxCruq5UeqJ1M6LpyCmP",
+        "wif": "5KPsqSFYqUSDZQB1kbUFuJNYq7X6uvD9Xz55spnhMc7jB1xKXvP"
+      },
+      "balance_results": {
+        "compressed": {
+          "address": "1JPSLNA4yh57AMFxCruq5UeqJ1M6LpyCmP",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "blockchain.info": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            },
+            "api.blockcypher.com": {
+              "balance_satoshis": 0,
+              "balance_btc": 0.0,
+              "success": true
+            }
+          },
+          "has_balance": false
+        },
+        "wif": {
+          "address": "5KPsqSFYqUSDZQB1kbUFuJNYq7X6uvD9Xz55spnhMc7jB1xKXvP",
+          "balance_satoshis": 0,
+          "balance_btc": 0.0,
+          "api_results": {
+            "blockstream.info": {
+              "error": "HTTP 400",
+              "success": false
+            },
+            "blockchain.info": {
+              "error": "HTTP 404",
+              "success": false
+            },
+            "api.blockcypher.com": {
+              "error": "HTTP 400",
+              "success": false
+            }
+          },
+          "has_balance": false
+        }
+      },
+      "total_balance_btc": 0.0,
+      "has_prize": false
+    }
+  ]
+}

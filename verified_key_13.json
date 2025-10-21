@@ -1,0 +1,10 @@
+{
+  "private_key_hex": "470e04377a14244b31241b66560c493f3300772d5e65c2a92a6e25425374d29e",
+  "compressed_address": "1FdztX18jQtpnMEaza6Mx4jtPyPHqZGXei",
+  "uncompressed_address": "1HDmXYmNfjTo2Jgud6cv1sgjMWrvM1oVW1",
+  "wif_compressed": "KybqDDSW1w37hKVY3yrjGyfopwPAvYm4k6j6st9jrmnCbFDJaU3G",
+  "wif_uncompressed": "5JMaaadbDSqWcR8NY31PigaG99F5y5vwKNgu5jQH47yTeExCAuo",
+  "offset": 184,
+  "balance_compressed": null,
+  "balance_uncompressed": null
+}

@@ -1,0 +1,23 @@
+Bitcoin Keys Extracted from Breakthrough Data
+==================================================
+
+Key 1: b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c
+
+Key 2: a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61daa7
+
+Key 3: f7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61
+
+Key 4: b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61da
+
+Key 5: 271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c61daa7b9
+
+Key 6: 18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc
+
+Key 7: 3ebada18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8
+
+Key 8: bada18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d1
+
+Key 9: da18b0cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119
+
+Key 10: cff7b7a9271cb9ff4a791539d5bdf7f91e2795f07fe28d89f604e8d119bc6c9c
+
