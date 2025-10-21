@@ -1,0 +1,62 @@
+puzzle_dir: "/home/ben/datapartition_backup/Desktop/ALL/puzzle"
+
+# Prize signal sources (scored by priority)
+prize_address_files:
+  - "complete_address_analysis.txt"
+  - "VALIDATION_RESULTS.json"
+  - "final_prize_*"
+  - "analyze_prize_address.py"
+
+# Candidate sources
+password_files:
+  - "all_comprehensive_passwords.txt"
+  - "comprehensive_all_passwords.txt"
+  - "complete_7_part_passwords.txt"
+  - "final_hash_passwords.txt"
+  - "phase_final_passwords.txt"
+  - "pwlist.txt"
+  - "test_passwords.txt"
+  - "candidates_*.txt"
+  - "cosmic_*_candidates.txt"
+
+key_files:
+  - "binary_extracted_keys.json"
+  - "extracted_bitcoin_keys.txt"
+  - "all_verified_keys.json"
+  - "verified_key_*.json"
+  - "private_key_candidate_*.hex"
+
+blob_files:
+  - "*.b64"
+  - "*.bin"
+  - "*.hex"
+
+# Orchestrated helpers (if present they will be executed)
+helpers:
+  - "final_prize_validator.py"
+  - "final_prize_derivation.py"
+  - "reverse_engineer_prize_key.py"
+  - "gpu_decrypt_ultimate_fixed.py"
+  - "gpu_decrypt_ultimate.py"
+  - "cosmic_duality_final_decrypt.py"
+  - "salphaseion_final_decryption.py"
+  - "ultimate_final_solution.py"
+
+# Decrypt recipes to try (deterministic order)
+decrypt_recipes:
+  - { kdf: "pbkdf2-hmac-sha256", iterations: [1000, 10000, 200000], keylen: 32, iv: "first16" }
+  - { kdf: "pbkdf2-hmac-sha1",   iterations: [2048, 4096, 10000],  keylen: 32, iv: "first16" }
+  - { kdf: "scrypt", N: [16384, 32768], r: 8, p: 1, keylen: 32, iv: "first16" }
+  - { kdf: "openssl-evp", scheme: "Salted__", keylen: 32 }
+
+ciphers:
+  - { name: "AES-256-CBC" }
+  - { name: "AES-256-CTR" }
+
+# Scoring weights (0..1); tune if needed
+score_weights:
+  key_validates_prize: 1.0
+  key_derives_any_address: 0.6
+  decrypted_has_ascii_english: 0.3
+  decrypted_has_btc_structs: 0.5
+  file_name_signal: 0.1
