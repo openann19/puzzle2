@@ -1,0 +1,16 @@
+The key to the Bitcoin puzzle is encrypted in the Cosmic Duality blob located in SalPhaseIon.md.
+
+Target Address: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+Prize: 5 BTC
+
+Location: SalPhaseIon.md, lines 8-35 (Cosmic Duality section)
+Format: OpenSSL AES-256-CBC encrypted (Salted__)
+Size: 1792 bytes (base64 encoded)
+
+The password is hidden in the clues within SalPhaseIon.md line 2, where single letters separated by spaces spell out: "sha be four first hint is your last command"
+
+To extract the private key:
+1. Identify the correct password from the hidden message analysis
+2. Decrypt the Cosmic Duality blob using OpenSSL format
+3. Extract the 64-character hexadecimal private key
+4. Verify it generates the target address 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe

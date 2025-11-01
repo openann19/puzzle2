@@ -27,18 +27,18 @@ def try_openssl_decrypt(blob_b64, password):
         ciphertext = blob[16:]
         
         # OpenSSL EVP KDF (MD5-based)
-        key = b''
-        iv = b''
+        # Need to derive 32 bytes for key + 16 bytes for IV = 48 bytes total
+        derived = b''
         prev = b''
-        pw_bytes = password.encode() if isinstance(password, str) else password
+        pw_bytes = password.encode()
         
-        while len(key) + len(iv) < 48:
+        while len(derived) < 48:
             m = MD5.new(prev + pw_bytes + salt).digest()
             prev = m
-            key += m
+            derived += m
         
-        key = key[:32]
-        iv = key[32:48]
+        key = derived[:32]
+        iv = derived[32:48]
         
         cipher = AES.new(key, AES.MODE_CBC, iv=iv)
         plaintext = cipher.decrypt(ciphertext)
