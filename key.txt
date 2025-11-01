@@ -1,0 +1,85 @@
+Bitcoin Puzzle Solution - Find the Key
+=======================================
+
+TARGET ADDRESS: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+PRIZE: 5 BTC
+
+PUZZLE LOCATION
+---------------
+The private key is encrypted in the "Cosmic Duality" blob at the end of SalPhaseIon.md
+
+ENCRYPTED DATA
+--------------
+Format: OpenSSL AES-256-CBC (Salted__)
+Size: 1792 bytes (base64 encoded)
+Location: Lines 8-35 of SalPhaseIon.md (after "Cosmic Duality" header)
+
+HIDDEN CLUE ANALYSIS
+--------------------
+In SalPhaseIon.md line 2, there are single letters separated by spaces that form a hidden message.
+The message contains:
+- "sha be four first hint is your last command"
+- Binary patterns (sequences of 'a' and 'b')
+- Base64 encoded strings interrupted by the binary patterns
+- At the end: "sha be fan s too"
+
+INTERPRETATION
+--------------
+"sha be four" = SHA-256 (SHA-2-56)
+"first hint is your last command" = The password is derived from the last phrase
+"sha be fans too" or variations like "fanstoo", "fans", etc. may be the password
+
+PASSWORD CANDIDATES
+-------------------
+Based on the clues, potential passwords to try:
+1. shabefanstoo
+2. fans
+3. fanstoo
+4. SHA256("shabefanstoo")
+5. SHA256("fans")
+6. Various combinations and permutations
+
+SOLUTION STATUS
+---------------
+STATUS: Encrypted blob identified, password derivation in progress
+NEXT STEPS: 
+  1. Decrypt Cosmic Duality blob with correct password
+  2. Extract 64-character hex private key from decrypted data
+  3. Verify the private key generates the target address 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+
+TECHNICAL DETAILS
+-----------------
+Decryption method: OpenSSL EVP (compatible with `openssl enc -d -aes-256-cbc`)
+Key derivation: MD5-based KDF used by OpenSSL "Salted__" format
+Expected output: Bitcoin private key in hex format (64 characters)
+Address format: P2PKH (Pay-to-Public-Key-Hash), starting with '1'
+
+HIDDEN MESSAGE ANALYSIS
+------------------------
+Line 2 of SalPhaseIon.md contains single letters separated by spaces that form a hidden message:
+- Total hidden message length: 510 characters
+- Contains the phrase: "sha be four first hint is your last command"
+- Contains binary patterns (sequences of 'a' and 'b' characters)
+- Ends with: "vtvjoppeislkeqvnjppwujsaeaso"
+
+Key sequences identified:
+1. "hbfufrtitsoratomnskthnnkvxwsevrz" (32 chars) - contains letters for "fortis", "atoms", "first"
+2. Binary sequence 1: 53 characters of alternating a/b pattern
+3. Binary sequence 2: 20 characters of a/b pattern  
+4. "vtvjoppeislkeqvnjppwujsaeaso" (28 chars) - possibly interleaved message
+
+SOLUTION APPROACH
+-----------------
+1. The password is likely derived from the hidden sequences
+2. Possible interpretations:
+   - Direct use of the sequences as passwords
+   - Anagrams of the sequences (e.g., "fortis", "atoms")
+   - Interleaved characters need to be separated
+   - Binary patterns may encode additional information
+3. The hint "your first hint is your last command" suggests the password
+   comes from the END of the message sequence
+
+AUTOMATION
+----------
+Run find_key_solution.py to automatically test password candidates
+against the Cosmic Duality blob.

@@ -1,0 +1,24 @@
+BITCOIN PUZZLE - UNSOLVED
+==========================
+
+Target Address: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+Prize: 5 BTC
+
+STATUS: UNSOLVED - This is a genuine cryptographic puzzle that remains unbroken.
+
+The private key is encrypted in the Cosmic Duality blob (SalPhaseIon.md, lines 8-35).
+Despite extensive cryptanalysis, the correct decryption password has not been discovered.
+
+WHAT IS KNOWN:
+- Encryption: OpenSSL AES-256-CBC (1792 bytes, base64 encoded)
+- Clue: "sha be four first hint is your last command" (from hidden message in line 2)
+- Over 100 password candidates tested without success
+- One related key found (e4432a90f69adc4e6d8520f937b9d5984cd0cc435a478f7b13bd19f2847ada30)
+  but it generates wrong address (1372xpecj2d7DFS9jG3SaXtpJ64EvspdEi)
+
+SOLUTION APPROACH:
+The correct solution requires discovering the password that decrypts the Cosmic Duality blob.
+This likely involves deeper analysis of the puzzle clues or cryptographic techniques beyond
+standard password testing.
+
+See SOLUTION.txt and key.txt for complete analysis and tools to continue the search.

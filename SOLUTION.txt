@@ -1,0 +1,106 @@
+
+===============================================================================
+BITCOIN PUZZLE SOLUTION - "Find the Key"
+===============================================================================
+
+TARGET ADDRESS: 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+PRIZE: 5 BTC
+
+===============================================================================
+SOLUTION STATUS
+===============================================================================
+
+✗ PUZZLE NOT YET FULLY SOLVED
+
+The private key is encrypted in the "Cosmic Duality" blob at the end of
+SalPhaseIon.md (lines 8-35). Despite extensive analysis, the correct
+decryption password has not been determined.
+
+===============================================================================
+WHAT HAS BEEN FOUND
+===============================================================================
+
+1. ENCRYPTED BLOB LOCATION:
+   - File: SalPhaseIon.md
+   - Section: "Cosmic Duality" 
+   - Format: OpenSSL AES-256-CBC (Salted__)
+   - Size: 1792 bytes (base64 encoded)
+
+2. HIDDEN CLUES:
+   Line 2 of SalPhaseIon.md contains single letters separated by spaces
+   that spell out: "sha be four first hint is your last command"
+   
+   This translates to:
+   - "sha be four" = SHA-256
+   - "first hint is your last command" = password derivation hint
+   
+   The message ends with: "sha be fan s too"
+
+3. OTHER ENCRYPTED BLOBS:
+   - small_blob.b64 (65 bytes)
+   - final_phase_blob.b64 (130 bytes)
+   - phase2_blob.b64 (909 bytes)
+   
+4. PREVIOUS FINDINGS:
+   - One private key was successfully recovered:
+     e4432a90f69adc4e6d8520f937b9d5984cd0cc435a478f7b13bd19f2847ada30
+   - But it generates address: 1372xpecj2d7DFS9jG3SaXtpJ64EvspdEi
+   - This is NOT the target address
+
+===============================================================================
+TESTED PASSWORD APPROACHES
+===============================================================================
+
+The following password strategies have been tested without success:
+
+1. Direct interpretations:
+   - shabefanstoo, fanstoo, fans, shabe, fan, too
+   
+2. SHA256 hashes of clue words
+
+3. Sequences from hidden message:
+   - hbfufrtitsoratomnskthnnkvxwsevrz
+   - vtvjoppeislkeqvnjppwujsaeaso
+   
+4. Anagrams: fortis, atoms, first
+
+5. All passwords from existing password files (100+ candidates)
+
+6. Image-based clues from theseedisplantedpage2.md
+
+===============================================================================
+NEXT STEPS TO SOLVE
+===============================================================================
+
+The solution likely requires:
+
+1. More sophisticated cryptanalysis of the hidden message patterns
+2. Understanding the relationship between the binary sequences (a/b patterns)
+   and the base64 data in line 2
+3. Possible multi-step password derivation
+4. Alternative encryption methods beyond OpenSSL EVP
+5. Checking if there are additional hidden clues in other files
+
+===============================================================================
+TOOLS PROVIDED
+===============================================================================
+
+- key.txt: Comprehensive documentation
+- find_key_solution.py: Automated decryption testing script
+- tests/test_find_key.py: Validation tests
+
+===============================================================================
+CONCLUSION
+===============================================================================
+
+The puzzle framework is fully understood and documented. The private key
+exists in encrypted form. What remains is discovering the correct password
+or decryption method to extract it.
+
+This is a complex cryptographic puzzle that requires either:
+a) Finding additional clues that haven't been discovered
+b) Brute-forcing with more sophisticated password generation
+c) Using alternative cryptographic approaches
+
+The "key" to solving this puzzle is finding the correct decryption password.
+===============================================================================
