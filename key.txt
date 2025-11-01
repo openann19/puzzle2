@@ -53,3 +53,33 @@ Decryption method: OpenSSL EVP (compatible with `openssl enc -d -aes-256-cbc`)
 Key derivation: MD5-based KDF used by OpenSSL "Salted__" format
 Expected output: Bitcoin private key in hex format (64 characters)
 Address format: P2PKH (Pay-to-Public-Key-Hash), starting with '1'
+
+HIDDEN MESSAGE ANALYSIS
+------------------------
+Line 2 of SalPhaseIon.md contains single letters separated by spaces that form a hidden message:
+- Total hidden message length: 510 characters
+- Contains the phrase: "sha be four first hint is your last command"
+- Contains binary patterns (sequences of 'a' and 'b' characters)
+- Ends with: "vtvjoppeislkeqvnjppwujsaeaso"
+
+Key sequences identified:
+1. "hbfufrtitsoratomnskthnnkvxwsevrz" (32 chars) - contains letters for "fortis", "atoms", "first"
+2. Binary sequence 1: 53 characters of alternating a/b pattern
+3. Binary sequence 2: 20 characters of a/b pattern  
+4. "vtvjoppeislkeqvnjppwujsaeaso" (28 chars) - possibly interleaved message
+
+SOLUTION APPROACH
+-----------------
+1. The password is likely derived from the hidden sequences
+2. Possible interpretations:
+   - Direct use of the sequences as passwords
+   - Anagrams of the sequences (e.g., "fortis", "atoms")
+   - Interleaved characters need to be separated
+   - Binary patterns may encode additional information
+3. The hint "your first hint is your last command" suggests the password
+   comes from the END of the message sequence
+
+AUTOMATION
+----------
+Run find_key_solution.py to automatically test password candidates
+against the Cosmic Duality blob.
